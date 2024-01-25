@@ -1,0 +1,35 @@
+/* user.component.css */
+.user-details-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.user-details-modal h2 {
+    color: #333;
+}
+
+.user-details-modal p {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 0px;
+    background-color: #e74c3c; /* Customize the color as needed */
+    color: white;
+    margin-left: 760px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+/* Add hover effect for the close button */
+.user-details-modal button:hover {
+    background-color: #c0392b; /* Customize the hover color */
+}

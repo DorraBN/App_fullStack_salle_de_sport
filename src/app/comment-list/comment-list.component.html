@@ -1,0 +1,18 @@
+<!-- comment-list.component.html -->
+<div>
+    <h2>Comments</h2>
+    <ul>
+      <li *ngFor="let comment of comments">{{ comment }}</li>
+    </ul>
+  
+    <form [formGroup]="commentForm" (ngSubmit)="addComment()">
+      <div>
+        <label for="commentText">Add Comment:</label>
+        <textarea id="commentText" formControlName="commentText"></textarea>
+      </div>
+      <div>
+        <button type="submit" [disabled]="commentForm.invalid">Add</button>
+      </div>
+    </form>
+  </div>
+  

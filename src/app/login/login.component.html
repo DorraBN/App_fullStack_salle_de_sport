@@ -1,0 +1,28 @@
+
+{{ showAlert() }}
+
+<body>
+  
+
+<!-- login.component.html -->
+<div class="loginBox">
+  <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+  <h3>Sign in here</h3>
+  <form (ngSubmit)="onSubmit()">
+    <div class="inputBox">
+      <input id="email" type="text" name="email" placeholder="email" [(ngModel)]="loginForm.email">
+      <input id="password" type="password" name="password" placeholder="password" [(ngModel)]="loginForm.password">
+    </div>
+    <input type="submit" name="" value="Login">
+  </form>
+  <a href="#">Forget Password<br></a>
+  <div class="text-center">
+    <p style="color: #59238F; cursor: pointer;" (click)="navigateToSignUp()">Sign up </p>
+  </div>
+</div>
+
+<!-- Ajoutez une condition pour afficher/masquer le message d'alerte -->
+<div *ngIf="alertMessage" class="alert">
+  {{ alertMessage }}
+</div>
+</body>

@@ -1,0 +1,24 @@
+
+
+<body>
+    
+
+<div class="loginBox"> <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+    <h3>Sign up here</h3>
+    <form action="http://localhost:5000/register" method="post">
+        <div class="inputBox"><input type="text" name="nom" class="input" placeholder="Nom" required>
+            <input type="text" name="prenom" class="input" placeholder="Prénom" required>
+            <input type="text" name="email" class="input" placeholder="Email" required>
+            <input type="password" name="password" class="input" placeholder="Password" required>
+            <input type="password" name="confirmPassword" class="input" placeholder="Confirm Password" required>
+            <input type="text" name="tel" class="input" placeholder="Numéro du Téléphone" required>
+            </div> <input type="submit" name="" value="register">
+            <input type="file" name="image" accept="image/*" />
+    </form> 
+    <a href="#">Forget Password<br> </a>
+    <div class="text-center">
+        <p style="color: #59238F; cursor: pointer;" (click)="navigateToLogin()">Sign in </p>
+    </div>
+    
+</div>
+</body>

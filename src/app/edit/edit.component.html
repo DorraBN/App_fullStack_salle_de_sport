@@ -1,0 +1,42 @@
+<body id="l">
+    <div class="form1">
+      <div class="subtitle1">Modifier un utilisateur </div>
+  
+      <form [formGroup]="updateUserForm" (ngSubmit)="updateUser()">
+        <div class="input-container ic1">
+          <input id="nom" class="input" type="text" placeholder=" " formControlName="nom" />
+          <div class="cut"></div>
+          <label for="nom" class="placeholder">Nom</label>
+        </div>
+  
+        <div class="input-container ic2">
+          <input id="prenom" class="input" type="text" placeholder=" " formControlName="prenom" />
+          <div class="cut"></div>
+          <label for="prenom" class="placeholder">Prénom</label>
+        </div>
+  
+        <div class="input-container ic2">
+          <input id="email" class="input" type="text" placeholder=" " formControlName="email" />
+          <div class="cut cut-short"></div>
+          <label for="email" class="placeholder">Email</label>
+        </div>
+        <div class="input-container ic2">
+            <input id="password" class="input" type="text" placeholder=" " formControlName="password" />
+            <div class="cut cut-short"></div>
+            <label for="password" class="placeholder">Password</label>
+          </div>
+  
+        <div class="input-container ic2">
+          <input id="tel" class="input" type="text" placeholder=" " formControlName="tel" />
+          <div class="cut cut-short"></div>
+          <label for="tel" class="placeholder">Téléphone</label>
+        </div>
+  
+        <button type="submit" class="submit">Submit</button>
+        <div class="text-center">
+            <p style="color: #0e510e; cursor: pointer;" (click)="navigateToDashboard()">Retour au dashboard </p>
+        </div>
+      </form>
+    </div>
+</body>
+  
