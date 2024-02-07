@@ -1,5 +1,5 @@
 # Projet
-![Description de l'image](src/assets/c1.jpg)
+![Description de l'image](src/assets/c1.jpg.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
 
