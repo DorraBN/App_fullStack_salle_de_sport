@@ -1,5 +1,8 @@
 # Projet
-home page
+<br>
+<h2>home page</h2>
+<br>
+
 ![Description de l'image](./src/assets/c1.jpg.png)
 ![Description de l'image](./src/assets/c2.jpg.png)
 ![Description de l'image](./src/assets/c3.jpg.png)
@@ -8,11 +11,19 @@ home page
 ![Description de l'image](./src/assets/c6.jpg.png)
 ![Description de l'image](./src/assets/c7.jpg.png)
 ![Description de l'image](./src/assets/ca18.png)
-login page
+<br>
+<h2>login page</h2>
+<br>
 ![Description de l'image](./src/assets/c2.png)
-register page 
+<br>
+<h2>register page</h2>
+<br>
+
 ![Description de l'image](./src/assets/ca20.png)
-Dashboard
+<br>
+<h2>Dashboard page</h2>
+<br>
+
 ![Description de l'image](./src/assets/ca19.png)
 
 
