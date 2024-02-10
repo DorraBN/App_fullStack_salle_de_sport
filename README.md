@@ -13,8 +13,10 @@
 ![Description de l'image](./src/assets/ca18.png)
 <br>
 <h2>login page</h2>
-<br>
-![Description de l'image](./src/assets/c2.png).
+
+![Description de l'image](./src/assets/c2.png)
+
+
 <br>
 <h2>register page</h2>
 <br>
